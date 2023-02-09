@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bf0b28;
+    height: 100vh;
+}
+
+header, form, ul, button, h2, footer, .logo-footer, .footer-info, .social, .historia, .sobre{
+    display: flex;
+    align-items: center;
+}
+
+h2, ul{
+display: flex;}
+
+
+button,h2, .logo-footer{
+    justify-content: center;
+}
+
+.logo-footer, .footer-info{
+    flex-direction: column;
+}
+
+header{
+    background-color: #aa132c;
+    justify-content:space-evenly;
+    box-shadow: 0 8px 20px 0 rgba(11, 11, 12, 0.37);
+    width: 100%;
+    height: 90px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin: 8px 0px 2px 24px;
+}
+
+input{
+    width: 180px;
+    height: 34px;
+    border-radius: 0 10px 10px 0;
+    background:#991329;
+    padding-right: 40px;
+    outline: none;
+}
+
+
+
+form>button{
+    background-color: #991329;
+    border-radius: 10px 0 0 10px;
+}
+
+.search{
+    width: 30px;
+    height: 34px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255 254 254);
+}
+
+ul{
+    justify-content: space-between;
+    width: 340px;
+}
+
+li{
+    list-style-type: none;
+}
+
+::placeholder, p, h2 {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.fazer-pedido,.adicionar{
+    transition: all .5s ease;
+    color: rgb(240, 234, 234);
+    cursor: pointer;
+    text-decoration: none;
+    background: #8ca93e;
+    border-radius: 22px;
+    gap: 6px;
+}
+
+.fazer-pedido{
+    width: 200px;
+    padding: 10px 20px;
+}
+
+.fazer-pedido:hover,.adicionar:hover{
+    background:#afce5c;
+}
+
+.slide{
+    width: 100%;
+}
+
+.main-home{
+    display: flex;
+    height: 1400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pizzas-famosas{
+    margin:60px 0px;
+}
+
+
+.sobre{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.historia{
+    font-size: 20px;
+}
+
+#sobre-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fbb739;
+    width: 800px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#localizacao
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps{
+    margin: 40px;
+}
+
+.cardapio{
+height: 2400px;
+margin-top: 30px;
+}
+
+section{
+    display: inline-flex;
+    border-radius: 22px;
+    justify-content: flex-end;  
+    align-items: center;
+}
+
+.pizzas-sobre{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: #991329;
+    width: 360px;
+    height: 180px;
+    padding: 18px;
+    border-radius:  22px 0 0 22px ;
+}
+
+.pizzas-nomes{
+    color: #FFF;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+div>.pizzas{
+    width: 150px;
+    height: 150px;
+}
+
+.menu-pizzas{
+background-color: #fbb739;
+display:flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
+height: 180px;
+border-radius: 0 20px 20px 0;
+padding: 20px;
+}
+
+.secoes-pizzas{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pizzas-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+.adicionar{
+    width: 110px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.adicionar:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+
+footer{
+    flex-direction: row;
+    background-color: #aa132c;
+    width: 100%;
+    height: 140px;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px 8px rgba(11, 11, 12, 0.37);
+    color: #FFF;
+}
+
+p{
+    padding: 4px 0;
+    color: rgb(255 254 254);
+    font-weight: bold;
+
+}
+
+.logo-footer>img{
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+}
+
+.footer-info>a{
+    padding: 4px;
+}
+
+.social-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.social-icon:hover{
+    transform: scale(1.2);
+    transition: all 0.4s;  
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.voltar{
+    text-align: center;
+    color: #fbb739;
+}
