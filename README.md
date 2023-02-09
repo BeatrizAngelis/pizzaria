@@ -15,7 +15,7 @@
 ## 📖 O que aprendi
 
 - Transições
-- Animações de entrada e saida
+- Navegação de links em um mesmo site.
 - Aprendi shorthand
 
 ## 📞 Contato
